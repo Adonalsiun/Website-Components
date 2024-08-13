@@ -1,0 +1,229 @@
+.subheading {
+  position: relative;
+  line-height: 150%;
+  font-weight: 600;
+  display: inline-block;
+  min-width: 53px;
+}
+.heading3 {
+  margin: 0;
+  align-self: stretch;
+  position: relative;
+  font-size: inherit;
+  line-height: 58px;
+  font-weight: 700;
+  font-family: inherit;
+}
+.text3 {
+  align-self: stretch;
+  position: relative;
+  font-size: 18px;
+  line-height: 150%;
+}
+.content6 {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 24px;
+  font-size: 48px;
+}
+.section-title3 {
+  width: 768px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 16px;
+  max-width: 100%;
+}
+.heading4 {
+  align-self: stretch;
+  position: relative;
+  line-height: 140%;
+}
+.span {
+  line-height: 120%;
+}
+.mo {
+  font-size: 32px;
+  line-height: 130%;
+}
+.price1 {
+  align-self: stretch;
+  height: 67px;
+  position: relative;
+  display: inline-block;
+  font-size: 56px;
+}
+.price-description {
+  align-self: stretch;
+  position: relative;
+  font-size: 16px;
+  line-height: 150%;
+}
+.price {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  padding: 0px 1px;
+  gap: 8px;
+  flex-shrink: 0;
+}
+.check-icon {
+  height: 24px;
+  width: 24px;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+  min-height: 24px;
+}
+.description {
+  position: relative;
+  line-height: 150%;
+}
+.list-item {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0px 297px 0px 0px;
+  gap: 16px;
+}
+.list {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 8px 1px;
+  gap: 16px;
+  text-align: left;
+  font-size: 16px;
+}
+.button9 {
+  position: relative;
+  font-size: 16px;
+  line-height: 150%;
+  font-family: Roboto;
+  color: #fff;
+  text-align: left;
+  display: inline-block;
+  min-width: 80px;
+}
+.button8 {
+  cursor: pointer;
+  border: 1px solid #000;
+  padding: 12px 20px;
+  background-color: #000;
+  align-self: stretch;
+  height: 50px;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  white-space: nowrap;
+}
+.button8:hover {
+  background-color: #333;
+  border: 1px solid #333;
+  box-sizing: border-box;
+}
+.content7 {
+  width: 560px;
+  border: 1px solid #000;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  padding: 30px 28px 30px 32px;
+  gap: 32px;
+  max-width: 100%;
+  font-size: 20px;
+}
+.pricing-1 {
+  flex: 1;
+  background-color: #fff;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  padding: 112px 20px;
+  box-sizing: border-box;
+  gap: 80px;
+  max-width: 100%;
+  text-align: center;
+  font-size: 16px;
+  color: #000;
+  font-family: Roboto;
+}
+.one-price {
+  width: 100%;
+  position: relative;
+  background-color: #fff;
+  overflow: hidden;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  line-height: normal;
+  letter-spacing: normal;
+}
+
+@media screen and (max-width: 800px) {
+  .heading3 {
+    font-size: 38px;
+    line-height: 46px;
+  }
+
+  .price1 {
+    font-size: 26px;
+  }
+
+  .pricing-1 {
+    gap: 40px;
+    padding-top: 73px;
+    padding-bottom: 73px;
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 675px) {
+  .list-item {
+    padding-right: 148px;
+    box-sizing: border-box;
+  }
+
+  .content7 {
+    gap: 16px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 450px) {
+  .heading3 {
+    font-size: 29px;
+    line-height: 35px;
+  }
+
+  .heading4 {
+    font-size: 16px;
+    line-height: 22px;
+  }
+
+  .price1 {
+    font-size: 19px;
+  }
+
+  .pricing-1 {
+    gap: 20px;
+    padding-top: 47px;
+    padding-bottom: 47px;
+    box-sizing: border-box;
+  }
+}
