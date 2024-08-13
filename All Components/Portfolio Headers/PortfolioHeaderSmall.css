@@ -1,0 +1,152 @@
+.heading141 {
+  margin: 0;
+  align-self: stretch;
+  position: relative;
+  font-size: inherit;
+  line-height: 120%;
+  font-weight: 700;
+  font-family: inherit;
+}
+.tag-one17 {
+  position: relative;
+  line-height: 150%;
+  font-weight: 600;
+  display: inline-block;
+  min-width: 50px;
+}
+.tag61 {
+  background-color: #eee;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 4px 8px;
+  white-space: nowrap;
+}
+.tag-three17 {
+  position: relative;
+  line-height: 150%;
+  font-weight: 600;
+  display: inline-block;
+  min-width: 60px;
+}
+.tags18 {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0px 392px 0px 0px;
+  gap: 8px;
+  font-size: 14px;
+}
+.column37 {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 24px;
+  min-width: 400px;
+  max-width: 100%;
+}
+.description15 {
+  height: 120px;
+  flex: 1;
+  position: relative;
+  font-size: 16px;
+  line-height: 150%;
+  display: inline-block;
+  min-width: 400px;
+  max-width: 100%;
+}
+.content364 {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 80px;
+  max-width: 100%;
+}
+.portfolio-header-9 {
+  flex: 1;
+  background-color: #fff;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  padding: 112px 64px;
+  box-sizing: border-box;
+  max-width: 100%;
+  text-align: left;
+  font-size: 56px;
+  color: #000;
+  font-family: Roboto;
+}
+.portfolio-header-small {
+  width: 1440px;
+  background-color: #fff;
+  max-width: 100%;
+  overflow: hidden;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  line-height: normal;
+  letter-spacing: normal;
+}
+
+@media screen and (max-width: 750px) {
+  .heading141 {
+    font-size: 45px;
+    line-height: 54px;
+  }
+
+  .portfolio-header-9 {
+    gap: 40px;
+    padding-left: 32px;
+    padding-right: 32px;
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 675px) {
+  .tags18 {
+    flex-wrap: wrap;
+    padding-right: 196px;
+    box-sizing: border-box;
+  }
+
+  .column37 {
+    min-width: 100%;
+  }
+
+  .description15 {
+    min-width: 100%;
+  }
+
+  .content364 {
+    gap: 40px;
+  }
+}
+@media screen and (max-width: 450px) {
+  .heading141 {
+    font-size: 34px;
+    line-height: 40px;
+  }
+
+  .tags18 {
+    padding-right: 20px;
+    box-sizing: border-box;
+  }
+
+  .content364 {
+    gap: 20px;
+  }
+
+  .portfolio-header-9 {
+    gap: 20px;
+  }
+}
