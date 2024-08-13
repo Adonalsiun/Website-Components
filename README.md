@@ -24,14 +24,13 @@ This repository is acts as a library of website building components made using H
     - Hero Headers
     - Headers
     - Gallery
-- In Progress:
-    - Footers
     - Features
     - Pricing
     - Testimonials
-- Backlog:
     - Logos
     - Teams 
+- In Progress:
+    - Footers
     - Timelines
     - CTA
     - Blog Items
@@ -39,6 +38,7 @@ This repository is acts as a library of website building components made using H
         - Sections
         - Posts
         - Post Headers
+- Backlog:
     - Banners
     - Portfolio Items
         - Sections
