@@ -1,0 +1,144 @@
+.medium-length-hero4 {
+  margin: 0;
+  align-self: stretch;
+  position: relative;
+  font-size: inherit;
+  line-height: 120%;
+  font-weight: 700;
+  font-family: inherit;
+}
+.lorem-ipsum-dolor23 {
+  align-self: stretch;
+  position: relative;
+  font-size: 18px;
+  line-height: 150%;
+}
+.content39 {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 24px;
+}
+.button47 {
+  position: relative;
+  font-size: 16px;
+  line-height: 150%;
+  font-family: Roboto;
+  color: #fff;
+  text-align: left;
+  display: inline-block;
+  min-width: 48px;
+}
+.button46 {
+  cursor: pointer;
+  border: 1px solid #000;
+  padding: 10px 23px;
+  background-color: #000;
+  flex: 1;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+.button46:hover,
+.button48:hover {
+  border: 1px solid #333;
+  box-sizing: border-box;
+}
+.button46:hover {
+  background-color: #333;
+}
+.button49 {
+  position: relative;
+  font-size: 16px;
+  line-height: 150%;
+  font-family: Roboto;
+  color: #000;
+  text-align: left;
+  display: inline-block;
+  min-width: 48px;
+}
+.button48 {
+  cursor: pointer;
+  border: 1px solid #000;
+  padding: 10px 23px;
+  background-color: transparent;
+  flex: 1;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+.button48:hover {
+  background-color: rgba(51, 51, 51, 0.09);
+}
+.actions12 {
+  width: 208px;
+  flex-direction: row;
+  align-items: flex-start;
+  padding: 16px 0 0;
+  box-sizing: border-box;
+  gap: 16px;
+}
+.actions12,
+.column17,
+.header-23,
+.simple-hero-1 {
+  display: flex;
+  justify-content: flex-start;
+}
+.column17 {
+  width: 768px;
+  flex-direction: column;
+  align-items: center;
+  gap: 24px;
+  max-width: 100%;
+}
+.header-23,
+.simple-hero-1 {
+  background-color: #fff;
+  overflow: hidden;
+}
+.header-23 {
+  flex: 1;
+  flex-direction: column;
+  align-items: center;
+  padding: 112px 20px;
+  box-sizing: border-box;
+  max-width: 100%;
+  text-align: center;
+  font-size: 56px;
+  color: #000;
+  font-family: Roboto;
+}
+.simple-hero-1 {
+  width: 100%;
+  position: relative;
+  flex-direction: row;
+  align-items: flex-start;
+  line-height: normal;
+  letter-spacing: normal;
+}
+@media screen and (max-width: 675px) {
+  .medium-length-hero4 {
+    font-size: 45px;
+    line-height: 54px;
+  }
+  .header-23 {
+    gap: 40px;
+  }
+}
+@media screen and (max-width: 450px) {
+  .medium-length-hero4 {
+    font-size: 34px;
+    line-height: 40px;
+  }
+  .header-23 {
+    gap: 20px;
+    padding-top: 73px;
+    padding-bottom: 73px;
+    box-sizing: border-box;
+  }
+}

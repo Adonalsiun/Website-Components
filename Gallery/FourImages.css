@@ -1,0 +1,113 @@
+.heading3,
+.text3 {
+  align-self: stretch;
+  position: relative;
+}
+.heading3 {
+  margin: 0;
+  font-size: inherit;
+  line-height: 58px;
+  font-weight: 700;
+  font-family: inherit;
+}
+.text3 {
+  font-size: 18px;
+  line-height: 150%;
+}
+.section-title-container,
+.section-title5 {
+  display: flex;
+  align-items: flex-start;
+  max-width: 100%;
+}
+.section-title5 {
+  width: 768px;
+  flex-direction: column;
+  justify-content: flex-start;
+  gap: 24px;
+}
+.section-title-container {
+  align-self: stretch;
+  flex-direction: row;
+  justify-content: center;
+}
+.placeholder-image-13 {
+  position: relative;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+  object-fit: cover;
+  min-height: 304px;
+}
+.content36,
+.four-images,
+.gallery-4 {
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.content36 {
+  align-self: stretch;
+  display: grid;
+  flex-direction: row;
+  gap: 32px;
+  grid-template-columns: repeat(4, minmax(228px, 1fr));
+}
+.four-images,
+.gallery-4 {
+  background-color: #fff;
+  max-width: 100%;
+  overflow: hidden;
+  display: flex;
+}
+.gallery-4 {
+  flex: 1;
+  flex-direction: column;
+  padding: 112px 64px;
+  box-sizing: border-box;
+  gap: 80px;
+  text-align: center;
+  font-size: 48px;
+  color: #000;
+  font-family: Roboto;
+}
+.four-images {
+  width: 1440px;
+  flex-direction: row;
+  line-height: normal;
+  letter-spacing: normal;
+}
+@media screen and (max-width: 1050px) {
+  .content36 {
+    justify-content: center;
+    grid-template-columns: repeat(2, minmax(228px, 395px));
+  }
+}
+@media screen and (max-width: 1000px) {
+  .heading3 {
+    font-size: 38px;
+    line-height: 46px;
+  }
+}
+@media screen and (max-width: 725px) {
+  .placeholder-image-13 {
+    width: 100%;
+  }
+  .content36 {
+    gap: 16px;
+    grid-template-columns: minmax(228px, 1fr);
+  }
+  .gallery-4 {
+    gap: 40px;
+    padding: 73px 32px;
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 450px) {
+  .heading3 {
+    font-size: 29px;
+    line-height: 35px;
+  }
+  .gallery-4 {
+    gap: 20px;
+  }
+}

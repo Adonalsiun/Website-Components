@@ -1,0 +1,125 @@
+.medium-length-hero1 {
+  margin: 0;
+  align-self: stretch;
+  position: relative;
+  font-size: inherit;
+  line-height: 120%;
+  font-weight: 700;
+  font-family: inherit;
+}
+.lorem-ipsum-dolor1 {
+  align-self: stretch;
+  position: relative;
+  font-size: 18px;
+  line-height: 150%;
+}
+.content1 {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 24px;
+}
+.button5 {
+  position: relative;
+  font-size: 16px;
+  line-height: 150%;
+  font-family: Roboto;
+  color: #fff;
+  text-align: left;
+  display: inline-block;
+  min-width: 48px;
+}
+.button4,
+.button6 {
+  cursor: pointer;
+  border: 1px solid #000;
+  padding: 10px 23px;
+  background-color: #000;
+  flex: 1;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+.button4:hover {
+  background-color: #333;
+  border: 1px solid #333;
+  box-sizing: border-box;
+}
+.button6 {
+  border: 1px solid #fff;
+  background-color: transparent;
+}
+.button6:hover {
+  background-color: rgba(230, 230, 230, 0.09);
+  border: 1px solid #e6e6e6;
+  box-sizing: border-box;
+}
+.actions1 {
+  width: 208px;
+  flex-direction: row;
+  align-items: flex-start;
+  padding: 16px 0 0;
+  box-sizing: border-box;
+  gap: 16px;
+}
+.actions1,
+.column2,
+.header-5,
+.medium-hero-1 {
+  display: flex;
+  justify-content: flex-start;
+}
+.column2 {
+  width: 560px;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 24px;
+  max-width: 100%;
+}
+.header-5,
+.medium-hero-1 {
+  overflow: hidden;
+  flex-direction: row;
+}
+.header-5 {
+  flex: 1;
+  align-items: center;
+  padding: 286.5px 64px;
+  box-sizing: border-box;
+  background-image: url(./public/header--5@3x.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: top;
+  max-width: 100%;
+  text-align: left;
+  font-size: 56px;
+  color: #fff;
+  font-family: Roboto;
+}
+.medium-hero-1 {
+  width: 100%;
+  position: relative;
+  background-color: #fff;
+  align-items: flex-start;
+  line-height: normal;
+  letter-spacing: normal;
+}
+@media screen and (max-width: 750px) {
+  .medium-length-hero1 {
+    font-size: 45px;
+    line-height: 54px;
+  }
+  .header-5 {
+    padding: 186px 32px;
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 450px) {
+  .medium-length-hero1 {
+    font-size: 34px;
+    line-height: 40px;
+  }
+}
