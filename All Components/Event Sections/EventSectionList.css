@@ -1,0 +1,344 @@
+.subheading26 {
+  align-self: stretch;
+  position: relative;
+  line-height: 150%;
+  font-weight: 600;
+}
+.schedule {
+  margin: 0;
+  align-self: stretch;
+  position: relative;
+  font-size: inherit;
+  line-height: 58px;
+  font-weight: 700;
+  font-family: inherit;
+}
+.description16 {
+  align-self: stretch;
+  position: relative;
+  font-size: 18px;
+  line-height: 150%;
+}
+.content366 {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 24px;
+  font-size: 48px;
+}
+.section-title40 {
+  width: 768px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 16px;
+  max-width: 100%;
+}
+.fri-09-feb {
+  position: relative;
+  line-height: 150%;
+  display: inline-block;
+  min-width: 71px;
+}
+.button242 {
+  border: 1px solid #000;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding: 6px 15px;
+}
+.sat-10-feb {
+  position: relative;
+  line-height: 150%;
+  display: inline-block;
+  min-width: 76px;
+}
+.button243 {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding: 8px 16px;
+}
+.sun-11-feb {
+  position: relative;
+  line-height: 150%;
+  display: inline-block;
+  min-width: 80px;
+}
+.tabs {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding: 0px 20px;
+  row-gap: 20px;
+}
+.card-summary {
+  width: 96px;
+  position: relative;
+  line-height: 150%;
+  display: inline-block;
+  flex-shrink: 0;
+  white-space: nowrap;
+}
+.heading143 {
+  margin: 0;
+  position: relative;
+  font-size: 24px;
+  line-height: 34px;
+  font-weight: 700;
+  font-family: inherit;
+}
+.in-person {
+  position: relative;
+  line-height: 150%;
+  font-weight: 600;
+  display: inline-block;
+  min-width: 61px;
+}
+.tag67 {
+  background-color: #eee;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 4px 8px;
+}
+.online {
+  position: relative;
+  line-height: 150%;
+  font-weight: 600;
+  display: inline-block;
+  min-width: 41px;
+}
+.title35 {
+  flex: 1;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  padding: 0px 307px 0px 0px;
+  box-sizing: border-box;
+  gap: 16px;
+  min-width: 334px;
+  max-width: 100%;
+  font-size: 14px;
+}
+.event-description {
+  width: 160px;
+  position: relative;
+  line-height: 150%;
+  display: inline-block;
+  flex-shrink: 0;
+}
+.event-details9 {
+  flex: 1;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 16px;
+  min-width: 666px;
+  max-width: 100%;
+  font-size: 16px;
+}
+.button246 {
+  position: relative;
+  font-size: 16px;
+  line-height: 150%;
+  font-family: Roboto;
+  color: #000;
+  text-align: left;
+  display: inline-block;
+  min-width: 87px;
+}
+.button245 {
+  cursor: pointer;
+  border: 1px solid #000;
+  padding: 6px 19px;
+  background-color: transparent;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+.button245:hover {
+  background-color: rgba(51, 51, 51, 0.09);
+  border: 1px solid #333;
+  box-sizing: border-box;
+}
+.card87 {
+  align-self: stretch;
+  border-top: 1px solid #000;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  padding: 32px 0px;
+  gap: 32px;
+  max-width: 100%;
+}
+.heading144 {
+  margin: 0;
+  position: relative;
+  font-size: inherit;
+  line-height: 34px;
+  font-weight: 700;
+  font-family: inherit;
+}
+.tag69 {
+  background-color: #eee;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 4px 8px;
+  font-size: 14px;
+}
+.title36 {
+  flex: 1;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  padding: 0px 400px 0px 0px;
+  box-sizing: border-box;
+  gap: 16px;
+  min-width: 257px;
+  max-width: 100%;
+  font-size: 24px;
+}
+.content368 {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  max-width: 100%;
+  font-size: 20px;
+}
+.content367 {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 48px;
+  max-width: 100%;
+  text-align: left;
+}
+.event-32 {
+  flex: 1;
+  background-color: #fff;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  padding: 112px 64px;
+  box-sizing: border-box;
+  gap: 80px;
+  max-width: 100%;
+  text-align: center;
+  font-size: 16px;
+  color: #000;
+  font-family: Roboto;
+}
+.event-section-list {
+  width: 1440px;
+  background-color: #fff;
+  max-width: 100%;
+  overflow: hidden;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  line-height: normal;
+  letter-spacing: normal;
+}
+
+@media screen and (max-width: 950px) {
+  .schedule {
+    font-size: 38px;
+    line-height: 46px;
+  }
+
+  .event-details9 {
+    flex-wrap: wrap;
+    min-width: 100%;
+  }
+
+  .event-32 {
+    gap: 40px;
+    padding: 73px 32px;
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 700px) {
+  .title35 {
+    flex-wrap: wrap;
+    padding-right: 153px;
+    box-sizing: border-box;
+  }
+
+  .card87 {
+    gap: 16px;
+  }
+
+  .title36 {
+    flex-wrap: wrap;
+    padding-right: 200px;
+    box-sizing: border-box;
+  }
+
+  .content367 {
+    gap: 24px;
+  }
+}
+@media screen and (max-width: 450px) {
+  .schedule {
+    font-size: 29px;
+    line-height: 35px;
+  }
+
+  .tabs {
+    flex-wrap: wrap;
+  }
+
+  .card-summary {
+    font-size: 16px;
+    line-height: 24px;
+  }
+
+  .heading143 {
+    font-size: 19px;
+    line-height: 27px;
+  }
+
+  .title35 {
+    padding-right: 20px;
+    box-sizing: border-box;
+  }
+
+  .heading144 {
+    font-size: 19px;
+    line-height: 27px;
+  }
+
+  .title36 {
+    padding-right: 20px;
+    box-sizing: border-box;
+  }
+
+  .event-32 {
+    gap: 20px;
+  }
+}
