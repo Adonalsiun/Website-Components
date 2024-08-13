@@ -1,0 +1,127 @@
+.icon-relume17 {
+  height: 32px;
+  width: 32px;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.heading140 {
+  align-self: stretch;
+  position: relative;
+  line-height: 150%;
+  font-weight: 600;
+}
+.text269 {
+  align-self: stretch;
+  position: relative;
+  font-size: 14px;
+  line-height: 150%;
+}
+.content362 {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  min-width: 663px;
+  max-width: 100%;
+}
+.content361 {
+  flex: 1;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 16px;
+  min-width: 694px;
+  max-width: 100%;
+}
+.icon-instagram {
+  height: 24px;
+  width: 24px;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+  min-height: 24px;
+}
+.social-links {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 12px;
+}
+.actions41 {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-end;
+  gap: 16px;
+}
+.container23 {
+  align-self: stretch;
+  background-color: #fff;
+  border: 1px solid #000;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: flex-start;
+  padding: 10px 15px;
+  gap: 32px;
+  max-width: 100%;
+}
+.banner-4 {
+  flex: 1;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  padding: 0px 64px;
+  box-sizing: border-box;
+  max-width: 100%;
+}
+.simple-banner-three {
+  width: 1440px;
+  background-color: #fff;
+  max-width: 100%;
+  overflow: hidden;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: left;
+  font-size: 16px;
+  color: #000;
+  font-family: Roboto;
+}
+
+@media screen and (max-width: 1000px) {
+  .content361 {
+    flex-wrap: wrap;
+  }
+}
+@media screen and (max-width: 975px) {
+  .content362 {
+    min-width: 100%;
+  }
+
+  .content361 {
+    min-width: 100%;
+  }
+
+  .banner-4 {
+    padding-left: 32px;
+    padding-right: 32px;
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 725px) {
+  .container23 {
+    gap: 16px;
+  }
+}

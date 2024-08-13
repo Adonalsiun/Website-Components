@@ -1,0 +1,65 @@
+.text270 {
+  position: relative;
+  line-height: 140%;
+  white-space: nowrap;
+}
+.text-wrapper {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0px 16px;
+}
+.content363 {
+  align-self: stretch;
+  overflow-x: auto;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: space-between;
+  padding: 16px 0px;
+  gap: 20px;
+}
+.banner-11 {
+  flex: 1;
+  background-color: #fff;
+  border-bottom: 1px solid #000;
+  box-sizing: border-box;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  padding: 0px 64px;
+  max-width: 100%;
+}
+.simple-banner-five {
+  width: 1440px;
+  background-color: #fff;
+  max-width: 100%;
+  overflow: hidden;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: left;
+  font-size: 20px;
+  color: #000;
+  font-family: Roboto;
+}
+
+@media screen and (max-width: 720px) {
+  .banner-11 {
+    padding-left: 32px;
+    padding-right: 32px;
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 450px) {
+  .text270 {
+    font-size: 16px;
+    line-height: 22px;
+  }
+}
