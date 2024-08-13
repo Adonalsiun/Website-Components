@@ -1,0 +1,170 @@
+.heading51 {
+  margin: 0;
+  align-self: stretch;
+  position: relative;
+  font-size: inherit;
+  line-height: 58px;
+  font-weight: 700;
+  font-family: inherit;
+}
+.text92 {
+  align-self: stretch;
+  position: relative;
+  font-size: 18px;
+  line-height: 150%;
+}
+.section-title27 {
+  width: 560px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 24px;
+  max-width: 100%;
+}
+.logos-icon24 {
+  width: 140px;
+  height: 56px;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.quote6 {
+  margin: 0;
+  align-self: stretch;
+  position: relative;
+  line-height: 140%;
+  font-weight: 700;
+}
+.avatar-image-icon6 {
+  width: 56px;
+  height: 56px;
+  position: relative;
+  border-radius: 50%;
+  object-fit: cover;
+}
+.profile-name {
+  align-self: stretch;
+  position: relative;
+  line-height: 150%;
+  font-weight: 600;
+}
+.profile-title {
+  align-self: stretch;
+  position: relative;
+  line-height: 150%;
+}
+.avatar-content6 {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.avatar6 {
+  width: 300px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 16px;
+  font-size: 16px;
+}
+.column34 {
+  flex: 1;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 32px;
+  min-width: 395px;
+  max-width: 100%;
+}
+.content133 {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: flex-start;
+  justify-content: center;
+  gap: 64px;
+  max-width: 100%;
+  font-size: 20px;
+}
+.testimonial-2 {
+  flex: 1;
+  background-color: #fff;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  padding: 112px 80px;
+  box-sizing: border-box;
+  gap: 80px;
+  max-width: 100%;
+  text-align: center;
+  font-size: 48px;
+  color: #000;
+  font-family: Roboto;
+}
+.two-testimonials {
+  width: 1440px;
+  background-color: #fff;
+  max-width: 100%;
+  overflow: hidden;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0px 0px 99px;
+  box-sizing: border-box;
+  line-height: normal;
+  letter-spacing: normal;
+}
+
+@media screen and (max-width: 750px) {
+  .heading51 {
+    font-size: 38px;
+    line-height: 46px;
+  }
+
+  .testimonial-2 {
+    gap: 40px;
+    padding: 73px 40px;
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 675px) {
+  .column34 {
+    gap: 16px;
+    min-width: 100%;
+  }
+
+  .content133 {
+    gap: 32px;
+  }
+}
+@media screen and (max-width: 450px) {
+  .heading51 {
+    font-size: 29px;
+    line-height: 35px;
+  }
+
+  .quote6 {
+    font-size: 16px;
+    line-height: 22px;
+  }
+
+  .content133 {
+    gap: 16px;
+  }
+
+  .testimonial-2 {
+    gap: 20px;
+    padding-top: 47px;
+    padding-bottom: 47px;
+    box-sizing: border-box;
+  }
+}
