@@ -1,0 +1,141 @@
+.text374 {
+  align-self: stretch;
+  position: relative;
+  line-height: 140%;
+}
+.text375 {
+  align-self: stretch;
+  position: relative;
+  font-size: 16px;
+  line-height: 150%;
+}
+.list-item66 {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 8px;
+  min-width: 109px;
+}
+.row47 {
+  flex: 1;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 32px;
+  min-width: 239px;
+  max-width: 100%;
+}
+.list15 {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 32px;
+  max-width: 100%;
+}
+.paragraph9 {
+  align-self: stretch;
+  position: relative;
+  line-height: 150%;
+}
+.content452 {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0px 0px 16px;
+}
+.content454 {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.rich-text2 {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  font-size: 16px;
+}
+.content451 {
+  width: 768px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 48px;
+  max-width: 100%;
+}
+.content-12 {
+  flex: 1;
+  background-color: #fff;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  padding: 112px 20px;
+  box-sizing: border-box;
+  max-width: 100%;
+  text-align: left;
+  font-size: 20px;
+  color: #000;
+  font-family: Roboto;
+}
+.long-content-small {
+  width: 1440px;
+  background-color: #fff;
+  max-width: 100%;
+  overflow: hidden;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  line-height: normal;
+  letter-spacing: normal;
+}
+
+@media screen and (max-width: 800px) {
+  .content-12 {
+    gap: 40px;
+  }
+}
+@media screen and (max-width: 675px) {
+  .content-12 {
+    padding-top: 73px;
+    padding-bottom: 73px;
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 450px) {
+  .text374 {
+    font-size: 16px;
+    line-height: 22px;
+  }
+
+  .row47 {
+    flex-wrap: wrap;
+    gap: 16px;
+  }
+
+  .list15 {
+    gap: 16px;
+  }
+
+  .content451 {
+    gap: 24px;
+  }
+
+  .content-12 {
+    gap: 20px;
+  }
+}

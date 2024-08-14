@@ -1,0 +1,273 @@
+.avatar-image-icon7 {
+  width: 96px;
+  height: 96px;
+  position: relative;
+  border-radius: 50%;
+  object-fit: cover;
+}
+.heading142 {
+  margin: 0;
+  align-self: stretch;
+  position: relative;
+  font-size: inherit;
+  line-height: 34px;
+  font-weight: 700;
+  font-family: inherit;
+}
+.description16 {
+  align-self: stretch;
+  position: relative;
+  font-size: 16px;
+  line-height: 150%;
+}
+.title34 {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 8px;
+}
+.icon-map2 {
+  height: 20px;
+  width: 20px;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.link9 {
+  position: relative;
+  line-height: 150%;
+  display: inline-block;
+  min-width: 62px;
+}
+.item3 {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 8px;
+  font-size: 16px;
+}
+.content330 {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 16px;
+}
+.section-title40 {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 24px;
+}
+.button230 {
+  position: relative;
+  line-height: 150%;
+  display: inline-block;
+  min-width: 60px;
+}
+.link10 {
+  align-self: stretch;
+  background-color: #fff;
+  border: 1px solid #fff;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding: 10px 20px;
+}
+.heading143 {
+  align-self: stretch;
+  position: relative;
+  font-size: 20px;
+  line-height: 140%;
+  color: #fff;
+  text-align: center;
+}
+.button232 {
+  position: relative;
+  line-height: 150%;
+  display: inline-block;
+  min-width: 70px;
+}
+.button233 {
+  position: relative;
+  line-height: 150%;
+  display: inline-block;
+  min-width: 63px;
+}
+.button234 {
+  position: relative;
+  line-height: 150%;
+  display: inline-block;
+  min-width: 59px;
+}
+.button235 {
+  position: relative;
+  line-height: 150%;
+  display: inline-block;
+  min-width: 54px;
+}
+.icon-envelope2 {
+  height: 32px;
+  width: 32px;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.text284 {
+  align-self: stretch;
+  position: relative;
+  line-height: 150%;
+  font-weight: 600;
+}
+.text285 {
+  align-self: stretch;
+  position: relative;
+  font-size: 14px;
+  line-height: 150%;
+}
+.content331 {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  min-width: 312px;
+  max-width: 100%;
+}
+.newsletter1 {
+  align-self: stretch;
+  background-color: #fff;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: flex-start;
+  padding: 16px;
+  box-sizing: border-box;
+  gap: 16px;
+  max-width: 100%;
+  font-size: 18px;
+}
+.icon-facebook2 {
+  height: 32px;
+  width: 32px;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+  min-height: 32px;
+}
+.social-links1 {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: center;
+  padding: 0px 20px;
+  gap: 12px;
+}
+.container25 {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 32px;
+  max-width: 100%;
+  text-align: left;
+  font-size: 16px;
+  color: #000;
+}
+.container24 {
+  width: 560px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 64px;
+  max-width: 100%;
+}
+.links-2 {
+  flex: 1;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  padding: 112px 20px;
+  box-sizing: border-box;
+  background-image: url("./public/links-2@3x.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: top;
+  max-width: 100%;
+  text-align: center;
+  font-size: 24px;
+  color: #fff;
+  font-family: Roboto;
+}
+.links-list {
+  width: 100%;
+  position: relative;
+  background-color: #fff;
+  overflow: hidden;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  line-height: normal;
+  letter-spacing: normal;
+}
+
+@media screen and (max-width: 950px) {
+  .links-2 {
+    padding-top: 73px;
+    padding-bottom: 73px;
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 700px) {
+  .container25 {
+    gap: 16px;
+  }
+
+  .container24 {
+    gap: 32px;
+  }
+
+  .links-2 {
+    gap: 40px;
+    padding-top: 47px;
+    padding-bottom: 47px;
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 450px) {
+  .heading142 {
+    font-size: 19px;
+    line-height: 27px;
+  }
+
+  .heading143 {
+    font-size: 16px;
+    line-height: 22px;
+  }
+
+  .social-links1 {
+    flex-wrap: wrap;
+  }
+
+  .container24 {
+    gap: 16px;
+  }
+
+  .links-2 {
+    gap: 20px;
+  }
+}

@@ -1,0 +1,127 @@
+.placeholder-image-icon124 {
+  align-self: stretch;
+  position: relative;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+  object-fit: cover;
+}
+.gallery {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.heading133 {
+  margin: 0;
+  width: 616px;
+  position: relative;
+  font-size: inherit;
+  line-height: 58px;
+  font-weight: 700;
+  font-family: inherit;
+  display: inline-block;
+  max-width: 100%;
+}
+.paragraph3 {
+  align-self: stretch;
+  position: relative;
+  line-height: 150%;
+}
+.content316 {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0px 0px 16px;
+}
+.content318 {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.rich-text {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  font-size: 16px;
+}
+.content315 {
+  width: 768px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 24px;
+  max-width: 100%;
+}
+.content-9 {
+  flex: 1;
+  background-color: #fff;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  padding: 112px 64px;
+  box-sizing: border-box;
+  gap: 80px;
+  max-width: 100%;
+  text-align: left;
+  font-size: 48px;
+  color: #000;
+  font-family: Roboto;
+}
+.long-content-large {
+  width: 100%;
+  position: relative;
+  background-color: #fff;
+  overflow: hidden;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  line-height: normal;
+  letter-spacing: normal;
+}
+
+@media screen and (max-width: 1125px) {
+  .content-9 {
+    padding-top: 73px;
+    padding-bottom: 73px;
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 1025px) {
+  .heading133 {
+    font-size: 38px;
+    line-height: 46px;
+  }
+}
+@media screen and (max-width: 750px) {
+  .gallery {
+    gap: 16px;
+  }
+
+  .content-9 {
+    gap: 40px;
+    padding: 47px 32px;
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 450px) {
+  .heading133 {
+    font-size: 29px;
+    line-height: 35px;
+  }
+
+  .content-9 {
+    gap: 20px;
+  }
+}
