@@ -23,7 +23,7 @@ The repository is split into two parts:
 - Components
 - Images
 
-To best utilize these files, include the entire ``public`` folder to better reference images in memory. The ``All Components`` folder has each of the components, separated by their own markings. This project was specifically made for websites with a max viewport of 1440 px, or standard Desktop size. In order to build pages from components, import the specfic CSS and HTML files, and reference them through ``{% include 'example.html'%} in Django and Python. 
+To best utilize these files, include the entire ``public`` folder to better reference images in memory. The ``All Components`` folder has each of the components, separated by their own markings. This project was specifically made for websites with a max viewport of 1440 px, or standard Desktop size. In order to build pages from components, import the specfic CSS and HTML files, and reference them through ``{% include 'example.html'%}`` in Django and Python. 
 
 
 ## Features
